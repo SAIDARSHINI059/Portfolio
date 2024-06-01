@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image" href="logo3.png" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="page-header">
+        <div class="logo">
+          <a href="./index.html"
+            ><img id="logo" class="logo-dark" src="logo3.png" alt=""
+          /></a>
+        </div>
+        <input type="checkbox" id="click" />
+
+        <label for="click" class="mainicon">
+          <div class="menu">
+            <i class="bx bx-menu"></i>
+          </div>
+        </label>
+        <ul>
+          <li>
+            <a href="./index.html" style="--navAni: 1">Home</a>
+          </li>
+          <li><a href="./skills.html" style="--navAni: 3">Skills</a></li>
+          <li>
+            <a href="./project.html" class="active" style="--navAni: 4"
+              >Projects</a
+            >
+          </li>
+          <li><a href="./about.html" style="--navAni: 2">About</a></li>
+        </ul>
+        <label class="mode">
+          <input type="checkbox" id="darkModeToggle" />
+          <i class="bx bxs-sun" id="changer"></i>
+        </label>
+      </div>
+    </header>
+
+    <section class="projects">
+      <h1>Projects</h1>
+      <div class="project-container">
+        <a href="https://saidarshini059.github.io/Todo-List/" target="_blank">
+          <div class="project-card">
+            <img
+              src="https://res.cloudinary.com/dhvri8cmq/image/upload/v1717239185/Todo%20list.png"
+              alt="error"
+            />
+            <div class="project-card-details">
+              <h1>To-Do List</h1>
+              <h5>HTML</h5>
+              <h5>CSS</h5>
+              <h5>Javascript</h5>
+              <p>A List to remember yout task</p>
+            </div>
+          </div>
+        </a>
+        <a href="https://github.com/SAIDARSHINI059/Number-Guess-Game" target="_blank">
+          <div class="project-card">
+            <img
+              src="https://res.cloudinary.com/dhvri8cmq/image/upload/v1717239770/guessgame-js.png"
+              alt="error"
+            />
+            <div class="project-card-details">
+              <h1>Number Guessing</h1>
+              <h5>HTML</h5>
+              <h5>CSS</h5>
+              <h5>Javascript</h5>
+              <p>A Website designed for fun game</p>
+            </div>
+          </div>
+        </a>
+        <a href="https://saidarshini059.github.io/Calculator/" target="_blank">
+          <div class="project-card">
+            <img
+              src="https://res.cloudinary.com/dhvri8cmq/image/upload/v1717239936/Calculator.png"
+              alt="error"
+            />
+            <div class="project-card-details">
+              <h1>Calculator</h1>
+              <h5>Javascript</h5>
+              <h5>Html</h5>
+              <h5>CSS</h5>
+              <p>A Simple calculator</p>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </section>
+
+    <footer>
+      <div class="social">
+        <a
+          href="https://github.com/saidarshini059"
+          target="_blank"
+          style="--socialAni: 3"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/saidarshini-brahma-36a739258"
+          target="_blank"
+          style="--socialAni: 1"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/saidarshinibrahma"
+          target="_blank"
+          style="--socialAni: 2"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
